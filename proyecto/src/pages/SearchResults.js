@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PeliculaCard from "../components/PeliculaCard/PeliculaCard"; 
+import PeliculaCard from "../components/PeliculaCaja/PeliculaCaja"; 
 
 class SearchResults extends Component {
   constructor(props) {

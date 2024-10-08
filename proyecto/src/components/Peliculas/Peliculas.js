@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PeliculaCard from "../PeliculaCard/PeliculaCard";
+import PeliculaCard from "../PeliculaCaja/PeliculaCaja";
 import { Link } from "react-router-dom";
 import "./Peliculas.css";
 
@@ -82,7 +82,7 @@ class Peliculas extends Component {
           <div className="ver-mas-container">
             <h2> DESTACADAS </h2>
             <Link to="/more/category/popular" className="btn-ver-mas">
-              Ver todas las peliculas destacadas
+              Ver más las peliculas destacadas
             </Link>
           </div>
           <div className="contenedor-peliculas">

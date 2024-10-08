@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PeliculaCard from '../components/PeliculaCard/PeliculaCard'; 
+import PeliculaCard from '../components/PeliculaCaja/PeliculaCaja'; 
 
 const api_key = "c7afdc079b8b11e78d950199ac3a221e"; 
 const baseURL = `https://api.themoviedb.org/3/movie/popular?api_key=${api_key}&language=en-US&page=`;

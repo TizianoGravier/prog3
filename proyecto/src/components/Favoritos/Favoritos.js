@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import PeliculaCard from "../PeliculaCard/PeliculaCard";
+import PeliculaCard from "../PeliculaCaja/PeliculaCaja";
 import "./Favoritos.css"
 
 class Favoritos extends Component{
@@ -54,7 +54,7 @@ class Favoritos extends Component{
 
         return(
             <div className="favoritos">
-        <h2>Titulos Favoritos</h2>
+        <h2> Favoritos</h2>
         <div className="contenedor-peliculas">
           {peliculasFavoritas.length > 0 ? (
             peliculasFavoritas.map((peli) => (

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class PeliculaCard extends Component {
+class PeliculaCaja extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,7 +33,7 @@ class PeliculaCard extends Component {
         ) : (
           <button onClick={() => agregarFav(pelicula.id)}>Agregar a favoritos</button>
         )}
-        <a className="boton_detalle" href={`/detalle/id/${pelicula.id}`}>Ver detalle de pelicula</a>
+        <a className="boton_detalle" href={`/detalle/id/${pelicula.id}`}>Ver el detalle de pelicula</a>
         <button onClick={this.mostrarDescrip}>
           {verMasId === pelicula.id ? "Ocultar descripción" : "Ver descripción"}
         </button>
@@ -44,4 +44,4 @@ class PeliculaCard extends Component {
   }
 }
 
-export default PeliculaCard;
+export default PeliculaCaja;
