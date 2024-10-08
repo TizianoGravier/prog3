@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./SearchForm.css";
 
-class SearchForm extends Component {
+class Buscador extends Component {
   constructor(props) {
     super(props);
 
@@ -42,4 +42,4 @@ class SearchForm extends Component {
   }
 }
 
-export default SearchForm;
+export default Buscador;

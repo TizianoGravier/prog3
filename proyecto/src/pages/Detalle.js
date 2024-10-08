@@ -14,4 +14,5 @@ const Detalle = ({match}) => {
         </section>
     )
 }
+
 export default Detalle

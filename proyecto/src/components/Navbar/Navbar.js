@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import SearchForm from "../SearchForm/SearchForm";
+import SearchForm from "../Buscador/Buscador";
 
 function Navbar(props) {
   const [menuOpen, setMenuOpen] = useState(false);

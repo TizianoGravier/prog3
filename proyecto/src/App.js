@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Favoritos from "./pages/Favoritos";
 import SearchResults from "./pages/SearchResults"; 
 import Detalle from "./pages/Detalle";
-import NotFound from "./pages/NotFound"; 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer"; 
 import MasPopulares from "./pages/MasPopulares";
@@ -27,7 +26,7 @@ function App() {
     <Route path="/vermas/category/popular" component={MasPopulares} />
     <Route path="/vermas/category/cartelera" component={MasCartelera} /> 
 
-    <Route component={NotFound} /> 
+  
 
     </Switch>
     <Footer />
